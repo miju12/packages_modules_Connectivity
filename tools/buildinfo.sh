@@ -55,6 +55,6 @@ if [ -n "$BUILD_THUMBPRINT" ] ; then
   echo "ro.build.thumbprint=$BUILD_THUMBPRINT"
 fi
 
-echo "org.elixir.device=$CUSTOM_DEVICE"
+echo "org.candy.device=$CUSTOM_DEVICE"
 
 echo "# end build properties"

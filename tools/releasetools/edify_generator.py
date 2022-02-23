@@ -264,22 +264,10 @@ class EdifyGenerator(object):
     """Log a message to the screen (if the logs are visible)."""
     self.script.append('ui_print("%s");' % (message,))
 
-  def PrintElixirBanner(self, android_version, build_id, build_date,
+  def PrintCandyBanner(self, android_version, build_id, build_date,
                                   security_patch, device):
     self.Print("----------------------------------------------")
-    self.Print("      ____            _           _         ");
-    self.Print("     |  _ \ _ __ ___ (_) ___  ___| |_       ");
-    self.Print("     | |_) | '__/ _ \| |/ _ \/ __| __|      ");
-    self.Print("     |  __/| | | (_) | |  __/ (__| |_       ");
-    self.Print("     |_|   |_|  \___// |\___|\___|\__|      ");
-    self.Print("     |_|            |_/                     ");
-    self.Print("                                            ");
-    self.Print("            _____ _ _      _                ");
-    self.Print("           | ____| (_)_  _(_)_ __           ");
-    self.Print("           |  _| | | \ \/ / | '__|          ");
-    self.Print("           | |___| | |>  <| | |             ");
-    self.Print("           |_____|_|_/_/\_\_|_|             ");
-    self.Print("                                            ");                   
+    self.Print("   CANDY   ROMS)
     self.Print("----------------------------------------------")
     self.Print(" Android Version: %s"%(android_version));
     self.Print(" Build ID: %s"%(build_id));
